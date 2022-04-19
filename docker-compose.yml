@@ -35,11 +35,8 @@ services:
     restart: always
     networks:
     - springappnetwork
-    
 volumes:
   mongodb:
-    external: true
-    
 networks:
   springappnetwork:
-    external: true
+
